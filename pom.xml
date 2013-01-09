@@ -55,6 +55,12 @@
                     <classifier>${platform.classifier}</classifier>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+                <configuration>
+                    <skipSource>true</skipSource>
+                </configuration>
+            </plugin>
         </plugins>
         <resources>
             <resource>
