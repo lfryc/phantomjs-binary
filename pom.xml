@@ -10,9 +10,9 @@
         <relativePath />
     </parent>
 
-    <groupId>org.jboss.arquillian.selenium</groupId>
+    <groupId>org.jboss.arquillian.phantomjs</groupId>
     <artifactId>phantomjs-binary</artifactId>
-    <version>1.8.0</version>
+    <version>1.8.1</version>
     <packaging>jar</packaging>
 
     <name>Binary for PhantomJS</name>
@@ -36,7 +36,7 @@
     </developers>
 
     <properties>
-        <phantomjs.version>1.8.0</phantomjs.version>
+        <phantomjs.version>${project.version}</phantomjs.version>
         <phantomjs.url></phantomjs.url>
         <target.os.family></target.os.family>
         <platform.classifier>${target.os.family}</platform.classifier>
